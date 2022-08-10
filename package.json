@@ -1,0 +1,28 @@
+{
+  "name": "back-meli-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferdiaz93/back-meli-challenge.git"
+  },
+  "type": "module",
+  "author": "fernando diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferdiaz93/back-meli-challenge/issues"
+  },
+  "homepage": "https://github.com/ferdiaz93/back-meli-challenge#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
