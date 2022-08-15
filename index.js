@@ -28,7 +28,8 @@ app.get('/api/items', async(req, res) => {
                 picture: item.thumbnail,
                 condition: item.condition,
                 free_shipping: item.shipping.free_shipping,
-            }))
+                location: item.address.city_name
+            })).slice(1, 5)
         }
         res.status(200).json(response)
     }catch(error){
