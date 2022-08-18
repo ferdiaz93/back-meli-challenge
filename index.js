@@ -1,10 +1,10 @@
 
-import express from 'express';
-import cors from 'cors';
-import axios from 'axios';
+const express = require('express');
+const cors = require('cors');
+const axios = require('axios');
 
 const app = express();
-const PORT = 3001;
+const PORT = 3030;
 
 app.use(cors())
 
